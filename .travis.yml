@@ -1,4 +1,4 @@
 language: c
-install: make test
-script: scons
+install: make dep
 compiler: gcc
+script: make test

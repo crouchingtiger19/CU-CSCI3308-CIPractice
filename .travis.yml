@@ -1,4 +1,4 @@
 language: c
-install: make get-deps
+install: make test
 script: scons
 compiler: gcc
